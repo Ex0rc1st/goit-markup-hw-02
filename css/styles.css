@@ -18,6 +18,9 @@ ul {
 a {
   text-decoration: none;
 }
+
+/* Header */
+
 .link {
   color: var(--primary-text-color);
 }
@@ -25,7 +28,6 @@ a {
 .link:focus {
   color: var(--action-color);
 }
-
 /* LOGO */
 .logo {
   font-family: 'Raleway';
@@ -40,9 +42,8 @@ a {
   color: var(--action-color);
 }
 
-/* Header */
-
 /* Hero */
+
 .hero {
   background-color: var(--background-color);
 }
@@ -51,6 +52,10 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  color: var(--background-white);
+}
+.btn {
+  background-color: var(--action-color);
   color: var(--background-white);
 }
 .btn:focus {
@@ -130,4 +135,15 @@ a {
   font-size: 14px;
   line-height: 24px;
   color: var(--footer-links);
+}
+
+/* Portfolio page */
+
+.nav-list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--secondary-text-color);
+  background-color: var(--background-our-team-section);
 }
