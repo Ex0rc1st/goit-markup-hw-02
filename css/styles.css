@@ -84,7 +84,9 @@ a {
 }
 
 /* Our Team */
-
+.our-team {
+  background-color: var(--background-our-team-section);
+}
 .our-team-title {
   font-style: normal;
   font-weight: 700;
